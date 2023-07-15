@@ -83,7 +83,6 @@ h3{
 }
 
 .card {
-    background-color: #BBCCF0;
     border: none;
     border-radius: 22px;
     font-family: 'poppins', sans-serif;
@@ -93,6 +92,7 @@ h3{
 }
 
 .card-1 {
+    background-color: #BBCCF0;
     border: none;
     border-radius: 22px;
     height: fit-content;
@@ -100,7 +100,7 @@ h3{
     width: 20rem;
     font-size: 12px;
 }
-.card-2 {
+.card2 {
     font-size: 12px;
     border: none;
     border-radius: 22px;
@@ -178,7 +178,6 @@ h3{
     padding: 20px 50px;
     background-image: url("bullet.png");
     background-repeat: no-repeat;
-    /* background-position: top; */
     background-size: 3rem;  
 }
 
@@ -214,7 +213,7 @@ h3{
     justify-content: space-evenly;
 }
 
-.b3-head {
+.b3-head{
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 1.5rem;
@@ -238,4 +237,84 @@ h3{
 .b3-block a {
     text-decoration: none;
     color: #189921;
+}
+
+.b4-head {
+    font-size: 34px;
+    font-weight: bolder;
+    align-self: center;
+    letter-spacing: 1.8px;
+    text-shadow: 1.8px 0 black;
+}
+
+.border-bg {
+    background-image: url('bg-border.png');
+    background-repeat: no-repeat;
+}
+
+.cd {
+    width: 20rem;
+    font-size: 15px;
+}
+
+.banner-5 {
+    background-color: #cfe2f3;
+    padding: 0 3rem;
+}
+
+.b5-link {
+    float: right;
+    margin: -3rem 5rem;
+    font-size: larger;
+    font-weight: bold;
+    color: #189921;
+    text-decoration-color: #1155cc;
+    
+}
+
+.b5-block img{
+    width: 18rem;
+    height: 9rem;
+    border-radius: 10px;
+}
+
+.b5-head{
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    text-shadow: 1px 0 black;
+    width: 18rem;
+    margin: 1rem 0;
+}
+
+.b5-text {
+    font-size: 15px;
+    color: grey;
+    line-height: 26px;
+    width: 18rem;
+}
+
+.footer {
+    background-color: #111122;
+    color: white;
+}
+
+.divider {
+    
+    border-left: 1.3px solid white;
+    height: 15rem;
+    margin: 0 20px;
+}
+
+.foot-list li , .foot-end li{
+    font-size: 14px;
+    list-style: none;
+    margin: 0 10px 15px 0px;
+}
+
+.footline {
+    border-left: 1px solid black;
+    height: 1rem;
+    margin: 0 10px;
 }
