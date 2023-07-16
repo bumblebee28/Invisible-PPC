@@ -37,7 +37,8 @@
         font-family: 'poppins', sans-serif;
         font-size: small;
         display: flex;
-        height: 370px;
+        height: 350px;
+        text-align: left;
     }
 
     .card-1 {
@@ -46,7 +47,7 @@
         border-radius: 22px;
         height: fit-content;
         padding: 1.8rem;
-        width: 24rem;
+        width: 90%;
         font-size: 12px;
     }
     .card2 {
@@ -58,7 +59,7 @@
         top: -215px;
         left: 40px;
         padding: 1.8rem;
-        width: 24rem;
+        width: 100%;
         height: fit-content;
     }
 
@@ -89,10 +90,15 @@
 
     .banner-2 , .banner-3{
         padding: 4rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .banner-2 h2 , .banner-3 h2{
         font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 30px;
         align-self: center;
         letter-spacing: 1.8px;
         text-shadow: 1.8px 0 black;
@@ -102,6 +108,11 @@
         width: auto;
         font-size: 14px;
         line-height: 1.3rem;
+    }
+
+    .banner-2-img{
+        border-radius: 30px;
+        margin-bottom: 30px;
     }
 
     .banner-2-list li{
@@ -126,6 +137,10 @@
     .b3-block {
         padding: 0;
         text-align: center;
+    }
+
+    .banner-4 {
+        margin-top: 0;
     }
 
     .b4-head {
