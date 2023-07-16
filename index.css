@@ -1,5 +1,215 @@
+@media only screen and (min-width: 750px){
+
+   
+
+    .info-bg {
+        background-image: url(icon-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center left;
+        padding: 6rem;
+    }
+
+    .info-content {
+        width: 120rem;
+        padding-bottom: 3rem;
+    }
+
+    h3{
+        font-size: 26px;
+        width: 30rem;
+        font-weight: 600;
+        line-height: 1.5em;
+        letter-spacing: 2px;
+        text-shadow: 1px 0 black;
+    }
+    .card {
+        border: none;
+        border-radius: 22px;
+        font-family: 'poppins', sans-serif;
+        font-size: small;
+        display: flex;
+        height: 300px;
+    }
+
+    .card-1 {
+        background-color: #BBCCF0;
+        border: none;
+        border-radius: 22px;
+        height: fit-content;
+        padding: 1.8rem;
+        width: 20rem;
+        font-size: 12px;
+    }
+    .card2 {
+        font-size: 12px;
+        border: none;
+        border-radius: 22px;
+        background-color: #BBCCF0;
+        display: flex;
+        top: -235px;
+        left: 70px;
+        padding: 1.8rem;
+        width: 20rem;
+        height: fit-content;
+    }
+
+    .banner, .ban {
+        padding: 3rem;
+    }
+
+    .banner-2-content, .banner-3-content {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 3rem;
+    }
+
+    .banner-2 , .banner-3{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 0rem 3rem 4rem;
+    }
+
+    .banner-2-img{
+        height: 23rem;
+        border-radius: 70px;
+    }
+
+    .banner-2 h2 , .banner-3 h2{
+        font-size: 34px;
+        font-weight: bold;
+        align-self: center;
+        letter-spacing: 1.8px;
+        text-shadow: 1.8px 0 black;
+    }
+
+    .banner-2-list {
+        width: 38rem;
+        font-size: 14px;
+        line-height: 1.3rem;
+    }
+
+    .banner-2-list li{
+        list-style: none;
+        padding: 20px 50px;
+        background-image: url("bullet.png");
+        background-repeat: no-repeat;
+        background-size: 3rem;  
+    }
+
+    .banner-2-list li h5 {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.5rem;
+        text-shadow: 1px 0 black;
+    }
+
+    .b3-line1, .b3-line2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .banner h2, .ban h2{
+        font-size: 34px;
+        font-weight: bold;
+        align-self: center;
+        letter-spacing: 2px;
+        text-shadow: 1.8px 0 white;
+        text-align: center;
+    }
+    
+    .banner-content {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3rem 0 1rem 0;
+    }
+
+    .b4-text {
+        font-size: 21px;
+        letter-spacing: 1px; 
+        line-height: 2.5rem;
+    }
+
+
+    .b4 {
+        display: flex;
+        padding: 2rem;
+    }
+
+    .b4-head {
+        font-size: 34px;
+        font-weight: bolder;
+        align-self: center;
+        letter-spacing: 1.8px;
+        text-shadow: 1.8px 0 black;
+    }
+
+    .footsec2 {
+        margin-left: 100px;
+    }
+
+    .foot-list {
+        margin-left: 20px;
+    }
+
+    .footline {
+        border-left: 1px solid black;
+        height: 1rem;
+        margin: 0 10px;
+    }
+
+    .footsec2 p {
+        width: 15rem;
+    }
+
+    .banner-5 {
+        background-color: #cfe2f3;
+        padding: 0 3rem;
+    }
+
+    .b5-block img{
+        width: 18rem;
+        height: 9rem;
+        border-radius: 10px;
+    }
+
+    .b5-head{
+        font-weight: bolder;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 26px;
+        text-shadow: 1px 0 black;
+        width: 18rem;
+        margin: 1rem 0;
+    }
+
+    .b5-text {
+        font-size: 15px;
+        color: grey;
+        line-height: 26px;
+        width: 18rem;
+    }
+
+    .banner-4{
+        padding: 2rem;
+    }
+
+    .b3-block {
+        text-align: center;
+        width: 20rem;
+        padding: 1rem;
+    }
+
+    .banner-3-content {
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
 body{
     font-family: 'poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 nav{
@@ -48,15 +258,6 @@ nav{
     text-shadow: 2.6px 0 black;
 }
 
-h3{
-    font-size: 26px;
-    width: 30rem;
-    font-weight: 600;
-    line-height: 1.5em;
-    letter-spacing: 2px;
-    text-shadow: 1px 0 black;
-}
-
 .btn-gr {
     font-family: 'poppins', sans-serif;
     letter-spacing: 2px;
@@ -68,63 +269,6 @@ h3{
 
 .btn-success {
     background-color: #189921;
-}
-
-.info-bg {
-    background-image: url(icon-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center left;
-    padding: 6rem;
-}
-
-.info-content {
-    width: 120rem;
-}
-
-.card {
-    border: none;
-    border-radius: 22px;
-    font-family: 'poppins', sans-serif;
-    font-size: small;
-    display: flex;
-    height: 300px;
-}
-
-.card-1 {
-    background-color: #BBCCF0;
-    border: none;
-    border-radius: 22px;
-    height: fit-content;
-    padding: 1.8rem;
-    width: 20rem;
-    font-size: 12px;
-}
-.card2 {
-    font-size: 12px;
-    border: none;
-    border-radius: 22px;
-    background-color: #BBCCF0;
-    display: flex;
-    top: -235px;
-    left: 70px;
-    padding: 1.8rem;
-    width: 20rem;
-    height: fit-content;
-}
-
-.banner h2{
-    font-size: 34px;
-    font-weight: bold;
-    align-self: center;
-    letter-spacing: 2px;
-    text-shadow: 1.8px 0 white;
-}
-
-.banner-content {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 3rem 0 1rem 0;
 }
 
 .block {
@@ -140,52 +284,6 @@ h3{
     font-size: small;
     text-shadow: 0.4px 0 white;
     line-height: 1.5rem;
-}
-
-.banner-2 , .banner-3{
-    display: flex;
-    flex-direction: column;
-    padding: 4rem 0rem 3rem 4rem;
-}
-
-.banner-2-img{
-    height: 23rem;
-    border-radius: 70px;
-}
-
-.banner-2 h2 , .banner-3 h2{
-    font-size: 34px;
-    font-weight: bold;
-    align-self: center;
-    letter-spacing: 1.8px;
-    text-shadow: 1.8px 0 black;
-}
-
-.banner-2-content, .banner-3-content {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin: 3rem;
-}
-
-.banner-2-list {
-    width: 38rem;
-    font-size: 14px;
-    line-height: 1.3rem;
-}
-
-.banner-2-list li{
-    list-style: none;
-    padding: 20px 50px;
-    background-image: url("bullet.png");
-    background-repeat: no-repeat;
-    background-size: 3rem;  
-}
-
-.banner-2-list li h5 {
-    font-size: 18px;
-    letter-spacing: 1px;
-    line-height: 1.5rem;
-    text-shadow: 1px 0 black;
 }
 
 .b2-btn {
@@ -207,24 +305,12 @@ h3{
     background-color: #cfe2f3;
 }
 
-.b3-line1, .b3-line2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 .b3-head{
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 1.5rem;
     text-shadow: 1px 0 black;
-}
-
-.b3-block {
-    text-align: center;
-    width: 20rem;
-    padding: 1rem;
-}
+} 
 
 .b3-block img {
     padding: 3px 6px;
@@ -239,14 +325,6 @@ h3{
     color: #189921;
 }
 
-.b4-head {
-    font-size: 34px;
-    font-weight: bolder;
-    align-self: center;
-    letter-spacing: 1.8px;
-    text-shadow: 1.8px 0 black;
-}
-
 .border-bg {
     background-image: url('bg-border.png');
     background-repeat: no-repeat;
@@ -257,11 +335,6 @@ h3{
     font-size: 15px;
 }
 
-.banner-5 {
-    background-color: #cfe2f3;
-    padding: 0 3rem;
-}
-
 .b5-link {
     float: right;
     margin: -3rem 5rem;
@@ -270,29 +343,6 @@ h3{
     color: #189921;
     text-decoration-color: #1155cc;
     
-}
-
-.b5-block img{
-    width: 18rem;
-    height: 9rem;
-    border-radius: 10px;
-}
-
-.b5-head{
-    font-weight: bolder;
-    font-size: 18px;
-    letter-spacing: 1px;
-    line-height: 26px;
-    text-shadow: 1px 0 black;
-    width: 18rem;
-    margin: 1rem 0;
-}
-
-.b5-text {
-    font-size: 15px;
-    color: grey;
-    line-height: 26px;
-    width: 18rem;
 }
 
 .footer {
@@ -311,10 +361,4 @@ h3{
     font-size: 14px;
     list-style: none;
     margin: 0 10px 15px 0px;
-}
-
-.footline {
-    border-left: 1px solid black;
-    height: 1rem;
-    margin: 0 10px;
 }
